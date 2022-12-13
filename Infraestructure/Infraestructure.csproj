@@ -47,6 +47,10 @@
     <Compile Include="Migrations\202206150121244_v1_Create_People.designer.cs">
       <DependentUpon>202206150121244_v1_Create_People.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202212130050359_Table-model.cs" />
+    <Compile Include="Migrations\202212130050359_Table-model.designer.cs">
+      <DependentUpon>202212130050359_Table-model.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -67,6 +71,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202206150121244_v1_Create_People.resx">
       <DependentUpon>202206150121244_v1_Create_People.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202212130050359_Table-model.resx">
+      <DependentUpon>202212130050359_Table-model.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
